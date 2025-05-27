@@ -1,29 +1,32 @@
 # TravelLux - Premium Travel Experience
+<img width="130" alt="image" src="https://github.com/user-attachments/assets/fd2e1967-4340-40ac-8ac6-22bdf23101ad" />
 
-![TravelLux Logo](https://via.placeholder.com/150x50?text=TravelLux)
 
 TravelLux is a modern, responsive multi-page website for a luxury travel agency. Built with pure HTML5, CSS3, and JavaScript, it showcases destinations, services, and travel experiences with elegant design and smooth animations.
 
 ### Home Page
-![TravelLux Home Page](./screenshots/home.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/0cebaa2d-ba7d-4088-b55b-d1920bc0d38d" />
+
 
 ### About Us Page
-![About Us Section](./screenshots/about.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/d51f85c0-f674-4175-91f6-6a8cf71d9112" />
+
 
 ### Services Page
-![Our Services Section](./screenshots/services.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/76bc611e-9909-447f-ba23-19e785182e91" />
+
 
 ### Gallery Page
-![Destination Gallery](./screenshots/gallery.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/44238ba2-238b-4b41-8b15-477f2d440ad7" />
+
 
 ### Blog Page
-![Travel Blog](./screenshots/blog.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e0f8745e-3cb9-4c5d-ba3b-401d206f3187" />
+
 
 ### Contact Page
-![Contact Form](./screenshots/contact.png)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/fa01551b-2b73-4609-9866-380c9f3ea056" />
 
-### Mobile View
-![Mobile Responsive Design](./screenshots/mobile.png)
 
 ## Features
 
@@ -58,6 +61,7 @@ For development:
 
 ## Project Structure
 travel-lux/
+
 ├── index.html # Main HTML file
 
 ├── style.css # Main stylesheet
