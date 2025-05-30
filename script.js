@@ -13,23 +13,23 @@ document.addEventListener('DOMContentLoaded', function() {
     initContactForm();
 });
 
-// Initialize Page Navigation
+
 function initPageNavigation() {
-    // Get all navigation links with data-page attribute
+    
     const navLinks = document.querySelectorAll('a[data-page]');
     
-    // Add click event to each navigation link
+    
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             
-            // Get page ID from data attribute
+            
             const pageId = this.getAttribute('data-page');
             
-            // Navigate to the selected page
+            
             navigateToPage(pageId);
             
-            // Update active state in navigation
+           
             updateActiveNavLink(pageId);
         });
     });
