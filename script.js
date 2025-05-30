@@ -1,4 +1,4 @@
-// Main JavaScript file for Multi-Page Website
+
 document.addEventListener('DOMContentLoaded', function() {
     // Page Navigation
     initPageNavigation();
@@ -12,8 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Form Submission
     initContactForm();
 });
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> script-js
 function initPageNavigation() {
     
     const navLinks = document.querySelectorAll('a[data-page]');
@@ -34,7 +37,7 @@ function initPageNavigation() {
         });
     });
 
-    // Handle buttons that navigate to other pages
+    
     const pageButtons = document.querySelectorAll('.btn[data-page]');
     pageButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -44,7 +47,7 @@ function initPageNavigation() {
         });
     });
 
-    // Function to navigate to a specific page
+    
     function navigateToPage(pageId) {
         // Hide all pages
         document.querySelectorAll('.page').forEach(page => {
