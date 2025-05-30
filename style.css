@@ -169,7 +169,7 @@ main {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Home Page */
+
 .hero {
     height: 80vh;
     min-height: 500px;
@@ -199,7 +199,7 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Features Section */
+
 .features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -230,7 +230,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* Testimonials Section */
+
 .testimonials {
     text-align: center;
     padding: 3rem 0;
@@ -263,7 +263,7 @@ main {
     color: var(--primary-color);
 }
 
-/* About Page */
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
