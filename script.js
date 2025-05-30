@@ -1,21 +1,25 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Page Navigation
+    
     initPageNavigation();
     
-    // Mobile Menu Toggle
+    
     initMobileMenu();
     
     // Gallery Filtering
     initGalleryFilters();
     
-    // Form Submission
+    
     initContactForm();
 });
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 =======
+>>>>>>> script-js
+=======
+ 
 >>>>>>> script-js
 function initPageNavigation() {
     
@@ -49,7 +53,7 @@ function initPageNavigation() {
 
     
     function navigateToPage(pageId) {
-        // Hide all pages
+         
         document.querySelectorAll('.page').forEach(page => {
             page.classList.remove('active');
         });
@@ -84,7 +88,7 @@ function initMobileMenu() {
     menuToggle.addEventListener('click', function() {
         navMenu.classList.toggle('show');
         
-        // Change icon based on menu state
+        
         const icon = this.querySelector('i');
         if (navMenu.classList.contains('show')) {
             icon.classList.remove('fa-bars');
